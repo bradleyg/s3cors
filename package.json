@@ -1,0 +1,30 @@
+{
+  "name": "s3cors",
+  "description": "Direct CORS uploads to S3.",
+  "keywords": [
+    "s3",
+    "upload",
+    "direct",
+    "form"
+  ],
+  "version": "0.0.1",
+  "author": "Bradley Griffiths <bradley.griffiths@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bradleyg/s3cors.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "moment": "1.7.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
