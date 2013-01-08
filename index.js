@@ -29,7 +29,7 @@ var signature = function(secret, policy) {
            .digest('base64')
 }
 
-var s3Form = function(s3) {
+var create = function(s3) {
   var pol = policy(s3.bucket, s3.acl)
   var sig = signature(s3.secret, pol)
   var url = 'https://' + s3.bucket + '.s3-' + s3.region + '.amazonaws.com/'
@@ -48,4 +48,4 @@ var s3Form = function(s3) {
   }
 }
 
-module.exports.s3Form = s3Form
+module.exports.create = create

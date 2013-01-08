@@ -25,7 +25,7 @@ var dummy = JSON.stringify({
 describe('s3cors', function (){
   it('should return correct dummy data', function(done){
 
-    var s3Form = JSON.stringify(s3cors.s3Form({
+    var s3Form = JSON.stringify(s3cors.create({
       "key": "SD9SDF9G8G97SDFG9",
       "secret": "sdf8sfd9fdg98g9sd8f7gsdf98g7sdfgsdfg987sdf",
       "bucket": "node-cors",
@@ -34,7 +34,7 @@ describe('s3cors', function (){
     }))
 
     s3Form.should.equal(dummy)
-    
+
     done()
   })
 })
