@@ -45,5 +45,6 @@ This will return a URL to post to (formFields.url) and a dictionary of values (f
 ```
 
 __Tests:__ ```npm test```
-
 __Install:__ ```npm install s3cors```
+  
+[![Build Status](https://secure.travis-ci.org/bradleyg/s3cors.png)](http://travis-ci.org/bradleyg/s3cors)
