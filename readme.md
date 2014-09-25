@@ -26,7 +26,7 @@ var formFields = s3cors.create({
   "key": "AWS_KEY",
   "secret": "AWS_SECRET",
   "bucket": "AWS_BUCKET",
-  "cal": "public-read",
+  "acl": "public-read",
   "region": "eu-west-1"
 })
 
